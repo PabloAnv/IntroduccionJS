@@ -26,6 +26,8 @@ console.table(meses);
 //Rest operator Spread Operator
 //Es mejor crear un nuevo arreglo que modificar el original
 
-const nuevoArreglo = [...meses, 'Julio']
+const nuevoArreglo = [...meses, 'Julio'];
+
+
 
 console.table(nuevoArreglo);

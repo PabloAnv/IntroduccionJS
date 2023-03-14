@@ -5,7 +5,6 @@ const producto = {
     disponible: true
 }
 
-
 //Congelar objeto para no agregar mas valores y no puede modificarse la imagen y eliminar
 
 // Object.freeze(producto);

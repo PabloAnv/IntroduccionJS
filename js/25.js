@@ -25,3 +25,5 @@ if (rol === "ADMINISTRADOR") {
 } else {
     console.log("No tienes acceso");
 }
+
+//SWITCH

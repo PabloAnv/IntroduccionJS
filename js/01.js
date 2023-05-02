@@ -1,24 +1,46 @@
-// Variables
+//Variables
 
-var producto = "Audifonos Gamer"; //Iniciar variable y declarar valor
+//Iniciar Variable y Declarar
 
-var disponible; //Iniciar variable
+var producto = "Audionos Gamer";
 
-producto = true; //Reasignando valor (no hay problema)
+producto = "Computadora Gamer"; //Reasginando valor
 
-disponible = true; //Declarando un valor
 
-var producto1 = "Computadora",
-    disponible1 = true,
-    categoria = "Computadoras";
-    //Se pueden declarar varias variables en una sola linea de codigo usando una coma y al final un punto y coma
+//Iniciar y declarar una variable pero por separado
 
-// var 1disponible; //No se pueden iniciar variables con un numero primero ni con guion a escepcion de guion bajo (como en todos los lenguajes)
+var disponible;     //Iniciar Variable
+disponible = true;  //Declarar Variable
 
-var disponible_; //Esto es correcto
 
-var nombre_producto = "Monitor HD"; //Esto tambien uderscore
-var nombreProducto = "Monito HD"; //cameCase
-var NombreProducto = "Monitor"; //Para clases PascalCase
+//Iniciar mas de una variable con una sola declaracion
 
-console.log(producto);
+var producto1 = "Mouse Gamer",
+    disponible1 = "True",
+    categoria = "Mouses";
+
+
+// var 1disponible;  Incorrecto poner un numero al inicio
+// var -disponible;  Incorrecto poner un signo al inicio
+
+
+//Formas de escribir variables
+
+//Underscore
+var nombre_producto = "Consola";
+
+//camelCase
+var nombreProducto = "Consola";
+
+//PascalCase
+var NombreProducto = "Consola";
+
+//lowercase
+var nombreproducto = "Consola";
+
+//Sensitive case:  La variable a llamar debe ser exactamente la misma iniciada anteriormente, de lo contrario marcara error
+console.log(NOMBREPRODUCTO);
+
+
+
+

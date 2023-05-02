@@ -1,22 +1,26 @@
-//String o cadenas de texto
+//METODOS EN STRINGS
 const producto = "Monitor de 20 pulgadas";
-const producto2 = String('Monitor de 30 pulgadas'); //String para decir que estamos usando un String
-const producto3 = new String('Monitor de 50 pulgadas'); //Con constructor new para crear un objeto
+const producto2 ="Monior HD";
+const tweet = "Aprendiendo JavaScript con el curso de desarrollo Web completo";
+const email = "pablo@gmail.com"
 
-console.log(producto);
+
+//length
+
+console.log(producto.length); //length es un METODO que nos dice cuantos caracteres tiene una cadena de Strings
 console.log(producto2);
-console.log(typeof producto3);  //typeof para saber el tipo de dato
 
 
-//No se puede usar comillas simples y comillas dobles al mismo tiempo
-const producto4 = "Monitor de 40 pulgadas';
+//indexOf
+//IndexOf es un METODO que comprueba si una palabra existe en una cadena de texto y lo representa como numero posicional
 
-console.log(producto4);
+console.log(tweet.indexOf('JavaScript'));
+console.log(producto2.indexOf("JavaScript"));   //En este caso no se encuentra, entonces marcara -1
+console.log(email.indexOf("@"));
 
 
-//Si quieres usar " dentro de una delcaracion de variable debes usar '' o \"
-const producto5 = "Monitor de 60\"";
-const producto6 = 'Monitor de 70"';
+//Includes retorna true o false
 
-console.log(producto5);
-console.log(producto6);
+console.log(tweet.includes('JavaScript'));       ////En este caso se encuentra, entonces marcara true
+console.log(producto2.includes("JavaScript"));   //En este caso no se encuentra, entonces marcara false
+console.log(email.includes("@"));

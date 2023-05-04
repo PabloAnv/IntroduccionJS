@@ -13,13 +13,15 @@ const producto = {
 };
 
 
-//Se puede llamar producto y te manda todas sus propiedades
+//Modificar Objetos
+
+//Agrega propiedades a los objetos
+producto.imagen = "imagen.jpg";
+
+//Eliminar propiedades
+delete producto.disponible;
+
+//Modificar propiedades
+producto.nombreProducto = "Monitor falso";
+
 console.log(producto);
-
-
-//O a una sola de ellas sentenciando que objeto y parte del objeto
-console.log(producto.precio);
-
-
-//Tambien se puede llamar con crochetes
-console.log(producto["precio"]);

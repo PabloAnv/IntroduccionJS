@@ -26,7 +26,11 @@ meses.splice(2,1);  //Ve a la posicion 2 del arreglo meses y elimina un valor en
 
 //Rest operator o Spread Operator
 
+//Para agregar al final
 const nuevoArreglo = [...meses, 'Diciembre'];
+
+//Para agregar al inicio
+// const nuevoArreglo = ['Diciembre' ,...meses];
 
 console.table(numeros);
 console.table(meses);

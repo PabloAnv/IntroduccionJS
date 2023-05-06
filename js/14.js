@@ -5,30 +5,28 @@ const numeros = [10,20,30,40,50];
 console.log(numeros);
 console.table(numeros);
 
-const meses = ['Enero', 'Febrero', 'Marzo', 'Abril'];
+const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Octubre', 'Septiembre', 'Noviembre'];
 
 //Usar table para los meses
 console.table(meses);
 
+//Agregar elementos
 
-//Puede tener todos los tipos de valores dentro de el
-const arreglo = ["Hola", 10, true, "si", null, {nombre:"Juan", trabajo: "Programador",}, [1,2,3]];
-
-console.table(arreglo);
-
-
-//Acceder a los valores del arreglo
-
-console.log(numeros[4]);
-console.log(numeros[2]);
-console.log(numeros[200]);
-
-//Conocer una extencion de un arreglo
-
-console.log (meses.length);
+numeros.push(60,70,80);             //Agregar elementos al final del arreglo
+numeros.unshift(-30,-20,-10,0);     //Agregar elementos al inicio del arreglo
 
 
-//For each es traducido: Por cada uno de ellos
-meses.forEach(function(mes){
-    console.log(mes);
-})
+//Eliminar elementos
+
+meses.pop();        //Elimina el ultimo elemento del arreglo
+meses.shift();      //Elimina el primer elemento del arreglo
+
+meses.splice(2,1);  //Ve a la posicion 2 del arreglo meses y elimina un valor en adelante
+
+
+//Rest operator o Spread Operator
+
+const nuevoArreglo = [...meses, 'Diciembre'];
+
+console.table(numeros);
+console.table(meses);

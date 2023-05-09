@@ -2,20 +2,18 @@
 
 //Declaracion de la funcion
 
+sumar();
 function sumar(){
     console.log(10 * 10);
 };
 
-sumar();
-
 
 //Expresion de la funcion
 
+sumar2();
 const sumar2 = function(){
     console.log(20 * 20);
 };
-
-sumar2();
 
 
 //IIFE se llama asi mismas y sirven para proteger las variables

@@ -30,6 +30,7 @@ const sumar4 = (n1, n2) => console.log(n1 + n2);
 
 
 
+
 //Cuarto paso: cuando hay un solo parametro se puede borrar el parentesis
 
 

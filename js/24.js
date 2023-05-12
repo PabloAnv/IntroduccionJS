@@ -24,3 +24,29 @@ const carrito = [
 for (let i=0; i < carrito.length; i++ ){
     console.log(carrito[i]);
 }
+
+
+//While loop
+
+ let i = 1;          //Indice
+
+ while( i <= 100){     //Condicion
+
+     if( i%2 === 0){
+         console.log(`El numero ${i} es par`);
+     }else{
+         console.log(`El numero ${i} es impar`);
+     }
+     i++             //Incremento
+ }
+
+
+//Do while loop
+
+let x = 100;    //Indice
+
+do {
+    console.log(x);
+
+    x++;    //Incremento
+}while(x < 10);     //Condicion

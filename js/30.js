@@ -1,4 +1,4 @@
-//Promises
+//Promises Funcionan igual que en la vida real, puede que no se cumplan, que se cumplan o simplemente nunca sucede
 
 const usuarioAutenticado = new Promise((resolve, reject) => {
     const auth = false;

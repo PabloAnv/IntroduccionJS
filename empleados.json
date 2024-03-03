@@ -1,0 +1,24 @@
+{
+    "empleados" : [ 
+        {
+            "id": 1,
+            "nombre": "Pablo Alejandro Calvillo Ortega",
+            "puesto": "Programador Web"
+        },
+        {
+            "id": 2,
+            "nombre": "Angel Hernandez Estrada",
+            "puesto": "UX / UI"
+        },
+        {
+            "id": 3,
+            "nombre": "Monsivais Lopez Doriga",
+            "puesto": "MKT"
+        },
+        {
+            "id": 4,
+            "nombre": "Alan Hernandez Gumayushi",
+            "puesto": "Servidores"
+        }
+     ]
+}
